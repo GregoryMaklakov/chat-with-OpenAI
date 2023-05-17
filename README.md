@@ -1,33 +1,17 @@
-
-# Starter React
+# Chat AI
 
 ### NPM instal
+
 ```bash
   npm i
 ```
 
+## Description
 
-## Before the start
-
-#### Libs 
-
-```bash
-  npm install --save clsx
-```
-
-```bash
-  npm install --save prop-types
-```
-
-
-
+description soon...
 
 ## Authors
 
 - [@HryhoriiMaklakov](https://github.com/GregoryMaklakov)
 
 - [@Linkedin](https://www.linkedin.com/in/grigory-maklakov-331a641ba/)
-## Description
-
-Will be added over time:  libs, mixins, vars and other
-
