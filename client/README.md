@@ -36,6 +36,13 @@ Go to the project directory
   npm i -D sass
 ```
 
+# Or
+
+```bash
+  npm i react-redux @reduxjs/toolkit @heroicons/react react-router-dom react-dropzone
+react-chat-engine-advanced npm i -D sass
+```
+
 ## Description
 
 description soon...
