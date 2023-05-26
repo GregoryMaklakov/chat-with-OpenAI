@@ -1,0 +1,16 @@
+@use "../../scss/config/variables.scss" as *;
+
+.chat-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px !important;
+  border-bottom: 1px solid $primary-400 !important;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
