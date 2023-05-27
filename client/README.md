@@ -12,6 +12,8 @@ Go to the project directory
 
 ## Install
 
+### Client:
+
 ```bash
   npm i react-redux @reduxjs/toolkit
 ```
@@ -41,6 +43,16 @@ Go to the project directory
 ```bash
   npm i react-redux @reduxjs/toolkit @heroicons/react react-router-dom react-dropzone
 react-chat-engine-advanced npm i -D sass
+```
+
+### Server:
+
+```bash
+  npm i express body-parser cors dotenv helmet morgan
+```
+
+```bash
+  npm i openai
 ```
 
 ## Description

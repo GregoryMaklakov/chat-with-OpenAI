@@ -2,7 +2,6 @@ import { ChatBubbleLeftRightIcon, PhoneIcon } from "@heroicons/react/24/solid";
 import "./CustomHeader.scss"
 
 const CustomHeader = ({ chat }) => {
-    console.log("chat:", chat.description);
     return (
         <div className="chat-header">
             <div className="flex-between">

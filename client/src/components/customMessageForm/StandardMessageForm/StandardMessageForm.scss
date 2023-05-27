@@ -1,0 +1,74 @@
+@use "@/scss/config/variables.scss" as *;
+
+.message-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  gap: 8px;
+}
+.message-form-preview {
+  position: relative;
+}
+.message-form-preview-image {
+  width: 48px;
+  height: 40px;
+}
+
+.message-form-icon-x {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: $primary-500 !important;
+  width: 15px !important;
+  height: 15px !important;
+  cursor: pointer;
+}
+
+.message-form-input-container {
+  flex-basis: 100%;
+  position: relative;
+  top: -10px;
+}
+
+.message-form-input,
+.message-form-input:focus,
+.message-form-input:active {
+  all: unset;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: $tertiary-50 !important;
+  z-index: 2 !important;
+  width: 100% !important;
+}
+.message-form-icon-airplane {
+  color: $secondary-500 !important;
+  width: 25px !important;
+  height: 25px !important;
+}
+
+.message-form-icon-clip:hover,
+.message-form-icon-airplane:hover {
+  color: $secondary-800 !important;
+  cursor: pointer;
+}
+
+.message-form-icon-clip {
+  color: $primary-400 !important;
+  width: 21px !important;
+  height: 21px !important;
+}
+
+.message-form-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.vertical-line {
+  height: 18px;
+  border: 0.5px solid $primary-400 !important;
+  display: inline-block;
+}
